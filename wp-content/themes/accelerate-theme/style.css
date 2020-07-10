@@ -616,6 +616,10 @@ a.button, a.button:link {
 /* End HOMEPAGE STYLES */
 
 /* FOOTER STYLES */
+
+div.menu-social-media-nav-container {
+	margin: 0 0 5% 35%;
+}
 .site-footer {
 	border-top: 1px solid #bfbfbf;
 	padding-top: 2em;
@@ -626,6 +630,27 @@ a.button, a.button:link {
     font-size: .9em;
     line-height: 1.5;
 }
+
+.social-media-navigation ul {
+	list-style-type:none;
+
+}
+	.social-media-navigation ul li {
+		display: inline-block;
+		padding: 0;
+	}
+
+.social-media-navigation i{
+color: #ffffff;
+	border-radius: 50%;
+	background-color: #2b2d2f;
+	padding: .2em;
+
+
+
+	}
+
+
 /* End FOOTER STYLES */
 
 /* Media Queries */
@@ -702,6 +727,10 @@ a.button, a.button:link {
 		float: right;
 		width: 20%;
 	}
+
+
+
+
 }
 @media (min-width: 400px) {
 	#navigation .pagination {

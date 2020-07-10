@@ -52,3 +52,99 @@
   	color: #45ac9d;
   	text-transform: uppercase;
 }
+
+/* CASE STUDY STYLES */
+
+.container {
+display: flex;
+justify-content: space-between;
+flex-flow: row nowrap;
+width: 100%;
+}
+
+aside.case-study-sidebar {
+width: 40%;
+margin-right: 8%;
+margin-top: 8%;
+}
+
+.case-study-images {
+  width: 60%;
+  margin: 7% 0;
+  height: auto;
+}
+
+.case-study-sidebar h5 {
+  color: #a6a6a6;
+  text-transform: capitalize;
+  font-family: 'Open Sans';
+  font-size: .875em;
+  font-weight: lighter;
+  line-height: .875em;
+  margin-top: 1em;
+  padding: 0;
+}
+
+.case-study-sidebar h2 {
+  font-size: 1.8em;
+  font-weight: 300;
+  font-family: 'Open Sans';
+  line-height: 1em;
+}
+
+.case-study-sidebar p {
+  line-height: 2.1em;
+  font-size: 1em;
+  margin-top: 1.8em;
+}
+
+
+.case-study-sidebar h6 {
+  margin-bottom: 2em;
+  font-weight: 100;
+  font-family: 'Open Sans';
+  font-size: 1em;
+  line-height: .875em;
+  margin: 0;
+  padding: 0;
+}
+
+.case-study-sidebar .read-more-link  {
+  font-weight: 700;
+  font-size: .875em;
+}
+
+/* FEATURED WORK SECTION HOMEPAGE*/
+
+.featured-work {
+  margin-bottom: 3em;
+}
+.featured-work h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.featured-work h3 {
+  font-family: 'Open Sans';
+  font-size: .875em;
+  font-weight: bold;
+  padding: 0;
+  margin-top: 1em;
+}
+
+.homepage-featured-work  {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 2em;
+}
+
+.individual-featured-work {
+display:inline-block;
+padding-right: 2em;
+margin: 0;
+text-align: center;
+width: 33%;
+}
+
+/* ARCHIVE CASE STUDIES PAGE */
