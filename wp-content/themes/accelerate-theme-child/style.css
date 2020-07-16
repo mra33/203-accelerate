@@ -148,3 +148,123 @@ width: 33%;
 }
 
 /* ARCHIVE CASE STUDIES PAGE */
+
+
+/* CONTACT FORM STYLES */
+
+.ninja-forms-req-symbol,
+div.nf-before-form-content {
+  display: none;
+}
+
+#nf-label-field-1,
+#nf-label-field-2,
+#nf-label-field-3 {
+  font-weight: 100;
+}
+#nf-field-1-container,
+#nf-field-2-container {
+  width: 48%;
+}
+
+#nf-field-1-container {
+  float: left;
+
+}
+
+#nf-field-2-container {
+  float: right;
+  clear: right;
+  padding-left: 1em;
+}
+
+the_title h2{
+  font-size: 20px;
+}
+
+#nf-field-4 {
+background: #45ac9d;
+padding: 0 5em;
+float: right;
+
+}
+
+/* ABOUT PAGE STYLES */
+#about-page-top {
+  padding: 0 25%;
+  margin-bottom: 20px;
+}
+
+#top-middle{
+  text-align: center;
+  margin: 0 30%;
+}
+
+#top-middle h4 {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+#top-middle p {
+  font-weight: 100;
+  font-size: .875em;
+  line-height: 2em;
+  font-family: 'Open Sans'
+}
+
+
+.about-article  {
+  margin: 15%;
+}
+
+.about-article h4 {
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 1.3em;
+  line-height: 2em;
+}
+
+.about-article p {
+  font-family: 'Open Sans';
+  font-weight: 100;
+  font-size: .875em;
+  line-height: 3em;
+}
+
+.about-images2 figure {
+  float: right;
+  margin-left: 15%;
+}
+
+.about-images figure{
+  float: left;
+  margin-right: 15%;
+}
+
+
+#end-about {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  border-top: 1px solid #bfbfbf;
+  padding-top: 2em;
+}
+
+#end-about h3 {
+  font-family: 'Open Sans';
+  margin: 0 1em;
+
+}
+
+#contact-button {
+background: #45ac9d;
+color: #fff;
+font: 700 1em 'Montserrat';
+padding: 1em 3.5em;
+text-align: center;
+border: none;
+}
