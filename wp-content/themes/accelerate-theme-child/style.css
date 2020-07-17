@@ -268,3 +268,56 @@ padding: 1em 3.5em;
 text-align: center;
 border: none;
 }
+
+/* 404 PAGE STYLES */
+
+.fourpage a,
+h1 {
+  color: #45ac9d;
+}
+
+.fourpage h1 {
+  text-transform: capitalize;
+  font-size: 2em;
+  font-family: 'Libre Baskerville', serif, 'Montserrat', 'Open Sans', Arial, sans-serif;
+}
+
+.fourpage p {
+  font-weight: 100;
+  font-family: 'Montserrat';
+}
+
+.fourpage {
+  width: 60%;
+  float: right;
+}
+
+#map {
+  width: 40%;
+  float: left;
+  margin-top: 7%;
+}
+
+#map img {
+  border: 5px solid #45ac9d;
+  width:250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 10%;
+}
+
+
+/* The animation code */
+@keyframes error {
+ from {filter: none;}
+to {filter: opacity(.5);}
+}
+
+/* The element to apply the animation to */
+#map img {
+  animation-name: error;
+  animation-duration: 4s;
+  animation-iteration-count:3;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+}
